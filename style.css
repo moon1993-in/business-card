@@ -1,0 +1,32 @@
+body{
+   margin: 20px;
+   font-family: Arial, sans-serif;
+}
+.avatar{
+    width: 100px;
+    border: 1px solid #2f3e46 ;
+    border-radius: 15px 50px 30px;
+}
+.card{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#cad2c5;
+    border-bottom: 8px solid #52796f;
+    border-top: 8px solid #52796f;
+    border-left: 8px solid snow;
+    border-right: 8px solid snow;
+    text-align: center;
+    color: #2f3e46;
+}
+.card:hover {
+    background-color:#cad2c5;
+    color: #52796f;
+    font-size: 18px;
+  }
+
+  .avatar:hover{
+   width: 200px;
+  }
